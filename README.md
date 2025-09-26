@@ -223,7 +223,7 @@ text editor. You can install VS Code by following the link below.
 
 ### Your First Java Program
 
-You will create a new Java file named `Assignment1.java` in Visual Studio Code.
+You will create a new Java file named `HelloWorld.java` in Visual Studio Code.
 
 1. Open up Visual Studio Code.
 
@@ -255,13 +255,13 @@ You will create a new Java file named `Assignment1.java` in Visual Studio Code.
 
     ![VS Code Integrated Terminal](img/18.png)
 
-7. Now let's create a Java file called `Assignment1.java`. You can do this either from the terminal we just opened or by simply using VS Code.
+7. Now let's create a Java file called `HelloWorld.java`. You can do this either from the terminal we just opened or by simply using VS Code.
 
     a. **Terminal**
     
-    Create the `Assignment1.java` file using terminal commands:
-    - Mac/Linux: `touch Assignment1.java`
-    - Windows: `type nul > Assignment1.java`
+    Create the `HelloWorld.java` file using terminal commands:
+    - Mac/Linux: `touch HelloWorld.java`
+    - Windows: `type nul > HelloWorld.java`
     ![Creating Java File in Terminal](img/19.png)
 
     b. **VS Code**
@@ -274,9 +274,9 @@ You will create a new Java file named `Assignment1.java` in Visual Studio Code.
 
     ![Naming the Java File](img/21.png)
 
-8. Type the contents of the screenshot below into your newly created `Assignment1.java` file
+8. Type the contents of the screenshot below into your newly created `HelloWorld.java` file:
 
-    ![Java Code Template](img/22.png)
+    ![HelloWorld.java Code Template](img/22.png)
 
 9. Then, you need to write two lines of code below `// Put your code below`
 
@@ -284,26 +284,28 @@ You will create a new Java file named `Assignment1.java` in Visual Studio Code.
 
     b. Then on another new line, tell the class what your favorite hobby is: **My favorite hobby is \<what your favorite hobby is\>**
 
-10. Save this file by navigating to the top left-hand corner again or by pressing **Ctrl + S** (Windows) or **Cmd + S** (Mac) at the same time.
+10. Save this file by navigating to the top left-hand corner again or by pressing **Ctrl + S** (Windows) or **Cmd + S** (Mac) at the same time. 
+
+    **Tip:** To make your coding experience smoother, you can enable Auto Save in VS Code by going to File → Auto Save. This will automatically save your files as you type, so you don't have to worry about manually saving every time you make changes.
 
     ![VS Code Save File](img/23.png)
 
-    You will know if your new code is saved when the white dot next to the filename at the top of the tab disappears. In the below screenshot, recent changes to `Assignment1.java` are unsaved.
+    You will know if your new code is saved when the white dot next to the filename at the top of the tab disappears. In the below screenshot, recent changes to `HelloWorld.java` are unsaved.
 
     ![Unsaved File Indicator](img/24.png)
 
-11. After that, go back to the terminal and make sure you are in the same directory where you saved your `Assignment1.java` file. Before you run every Java code, you need to compile it first using the `javac` command.
+11. After that, go back to the terminal and make sure you are in the same directory where you saved your `HelloWorld.java` file. Before you run every Java code, you need to compile it first using the `javac` command.
 
     **Important Note:** If you make changes to a `.java` file, you will need to compile your code again before you can run the file with the updated changes.
 
     **Linux and macOS:**
     ```bash
-    $ javac Assignment1.java
+    $ javac HelloWorld.java
     ```
 
     **Windows:**
     ```cmd
-    > javac Assignment1.java
+    > javac HelloWorld.java
     ```
 
     Notice that a brand new `.class` file appeared in your directory after compiling!
@@ -314,12 +316,12 @@ You will create a new Java file named `Assignment1.java` in Visual Studio Code.
 
     **Linux and macOS:**
     ```bash
-    $ java Assignment1
+    $ java HelloWorld
     ```
 
     **Windows:**
     ```cmd
-    > java Assignment1
+    > java HelloWorld
     ```
 
     You should see three lines of output in the terminal.
@@ -339,7 +341,7 @@ make the exact submission format.**
 
 1. Go to Gradescope and click on Assignment 1.
 
-2. Click the DRAG & DROP section and directly select the required file `Assignment1.java`. Drag & drop is fine. *Please make sure you don't submit a zip.* Just this single file solely. *Make sure the name of the file is correct!*
+2. Click the DRAG & DROP section and directly select the required file `HelloWorld.java`. Drag & drop is fine. *Please make sure you don't submit a zip.* Just this single file solely. *Make sure the name of the file is correct!*
 
 3. **You can resubmit unlimited times before the due date.** Your score will depend on your final submission, even if your former submissions have a higher score.
 
