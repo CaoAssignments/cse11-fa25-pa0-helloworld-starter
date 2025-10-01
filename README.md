@@ -328,10 +328,8 @@ You will create a new Java file named `HelloWorld.java` in Visual Studio Code.
 
     ```
     Hello World!
-
-    My name is Sumu
-
-    My favorite hobby is acting
+    My name is Kevin
+    My favorite hobby is coding
     ```
 
 ## Submission Instructions
